@@ -1,0 +1,5 @@
+class PostComment < ApplicationRecord
+  
+  
+  
+end
