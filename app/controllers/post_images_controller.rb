@@ -19,6 +19,9 @@ class PostImagesController < ApplicationController
   end
   
   def destroy
+    @pst_image = PostImage .find(params[:id])
+    post_image.destroy
+    redirect to '/post_images'
   end
   
   private
